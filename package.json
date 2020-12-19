@@ -1,0 +1,25 @@
+{
+  "name": "abquant",
+  "version": "1.0.0",
+  "description": "抓取阿布量化数据",
+  "main": "btc.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "crawler": "^1.3.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsky1990/abquant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsky1990/abquant/issues"
+  },
+  "homepage": "https://github.com/dsky1990/abquant#readme"
+}
