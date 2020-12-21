@@ -33,5 +33,5 @@ jobs:
       - name: "运行 pc_final"
         run: |
             node pc_final.js
-      - name: GitHub Push
-        uses: ad-m/github-push-action@v0.6.0            
+      - name: Git Commit/Push Changes
+        uses: actions-x/commit@v2
