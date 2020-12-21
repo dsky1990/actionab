@@ -32,4 +32,6 @@ jobs:
             npm install
       - name: "运行 pc_final"
         run: |
-            node pc_final.js      
+            node pc_final.js
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0            
