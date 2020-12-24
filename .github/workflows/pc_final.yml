@@ -35,7 +35,7 @@ jobs:
       - name: "运行 pc_final"
         run: |
             node pc_final.js    
-      - uses: actions/checkout@v2
+      - name: git pull
       - run: |
           git pull
       - name: Git Commit/Push Changes
