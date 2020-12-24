@@ -36,8 +36,9 @@ jobs:
       - name: "运行 pc_mc"
         run: |
             node pc_mc.js
+      - name: git pull
+        run: |
+          git pull
       - name: Git Commit/Push Changes
         uses: actions-x/commit@v2
-        with:
-          force: true
       
