@@ -40,4 +40,6 @@ jobs:
         uses: repo-sync/pull-request@v2.4.3
       - name: Git Commit/Push Changes
         uses: actions-x/commit@v2
+        with:
+          force: true
       
