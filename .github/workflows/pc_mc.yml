@@ -41,4 +41,6 @@ jobs:
           git pull
       - name: Git Commit/Push Changes
         uses: actions-x/commit@v2
+        with:
+          message: "update pc_mc.json" 
       
