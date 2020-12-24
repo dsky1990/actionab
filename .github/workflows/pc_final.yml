@@ -36,7 +36,7 @@ jobs:
         run: |
             node pc_final.js    
       - name: git pull
-      - run: |
+        run: |
           git pull
       - name: Git Commit/Push Changes
         uses: actions-x/commit@v2
