@@ -37,5 +37,7 @@ jobs:
             node pc_final.js    
       - name: GitHub Pull Request Action
         uses: repo-sync/pull-request@v2.4.3
+        with:
+          destination_branch: "main"
       - name: Git Commit/Push Changes
         uses: actions-x/commit@v2
