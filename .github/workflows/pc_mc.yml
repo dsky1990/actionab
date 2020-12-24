@@ -36,6 +36,8 @@ jobs:
       - name: "运行 pc_mc"
         run: |
             node pc_mc.js
+      - name: checkout
+        uses: actions/checkout@v2      
       - name: Git Commit/Push Changes
         uses: actions-x/commit@v2
       
