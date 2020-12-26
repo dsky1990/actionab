@@ -14,7 +14,9 @@ Object.keys(finalData).forEach(key => {
           time++
         }
       })
-      console.log(`${key}-${keyin}开单${len}次，预测成功${time}次， 准确率${Number(time/len*100).toFixed(2)}%，${finalMoney[keyin] >= 0 ? '盈利' :'亏损'}${finalMoney[keyin]}`)
+      if(time/len> 0.5 || finalMoney[keyin] >= 0) {
+        console.log(`${key}-${keyin}开单${len}次，预测成功${time}次， 准确率${Number(time/len*100).toFixed(2)}%，${finalMoney[keyin] >= 0 ? '盈利' :'亏损'}${finalMoney[keyin]}`)
+      }
     } 
   })
 })
@@ -30,7 +32,9 @@ Object.keys(mcData).forEach(key => {
           time++
         }
       })
-      console.log(`${key}-${keyin}开单${len}次，预测成功${time}次， 准确率${Number(time/len*100).toFixed(2)}%，${mcMoney[keyin] >= 0 ? '盈利': '亏损'}${mcMoney[keyin]}`)
+      if(time/len > 0.5 || mcMoney[keyin] >= 0) {
+        console.log(`${key}-${keyin}开单${len}次，预测成功${time}次， 准确率${Number(time/len*100).toFixed(2)}%，${mcMoney[keyin] >= 0 ? '盈利': '亏损'}${mcMoney[keyin]}`)
+      }
     } 
   })
 })
