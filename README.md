@@ -1,4 +1,7 @@
-# abquant
+# abquant 
+ ![pc_final](https://github.com/dsky1990/abquant/workflows/pc_final/badge.svg)
+ ![pc_mc](https://github.com/dsky1990/abquant/workflows/pc_mc/badge.svg)
+ 
 抓取阿布量化数据
 
 
