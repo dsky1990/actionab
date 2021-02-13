@@ -3594,7 +3594,15 @@
           "isRight": true,
           "earn": 4629.220000000001
         }
-      ]
+      ],
+      "big data analysis": [],
+      "candlestick pattern analysis": [],
+      "indicator analysis": [],
+      "buy-sell signals statistics": [],
+      "extreme short-term": [],
+      "short-term": [],
+      "mid-term": [],
+      "extreme long-term": []
     },
     "latest": {
       "量化指标分析": {
@@ -3650,6 +3658,54 @@
         "time": 1612530681709,
         "price": "37918.33",
         "type": "偏空"
+      },
+      "big data analysis": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "slightly bearish"
+      },
+      "candlestick pattern analysis": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "uncertain"
+      },
+      "indicator analysis": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "bearish"
+      },
+      "buy-sell signals statistics": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "slightly bullish"
+      },
+      "extreme short-term": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "slightly bullish"
+      },
+      "short-term": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "bearish"
+      },
+      "mid-term": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "bullish"
+      },
+      "extreme long-term": {
+        "date": "2021-02-13 21:45:43",
+        "time": 1613252743444,
+        "price": "46983.43",
+        "type": "slightly bullish"
       }
     },
     "money": {
@@ -3661,7 +3717,15 @@
       "长线趋势": 15383.879999999994,
       "极长线趋势": -3076.589999999993,
       "大数据预测": 35422.21999999995,
-      "K线形态分析": 7357.240000000027
+      "K线形态分析": 7357.240000000027,
+      "big data analysis": 0,
+      "candlestick pattern analysis": 0,
+      "indicator analysis": 0,
+      "buy-sell signals statistics": 0,
+      "extreme short-term": 0,
+      "short-term": 0,
+      "mid-term": 0,
+      "extreme long-term": 0
     }
   },
   "ETH": {
@@ -7284,7 +7348,15 @@
           "earn": -55.909999999999854
         }
       ],
-      "综合报告": []
+      "综合报告": [],
+      "big data analysis": [],
+      "candlestick pattern analysis": [],
+      "indicator analysis": [],
+      "buy-sell signals statistics": [],
+      "extreme short-term": [],
+      "short-term": [],
+      "mid-term": [],
+      "extreme long-term": []
     },
     "money": {
       "量化指标分析": 91.69999999999993,
@@ -7296,7 +7368,15 @@
       "大数据预测": 522.5300000000003,
       "K线形态分析": -1439.8699999999997,
       "长线趋势": 20.320000000000732,
-      "综合报告": 0
+      "综合报告": 0,
+      "big data analysis": 0,
+      "candlestick pattern analysis": 0,
+      "indicator analysis": 0,
+      "buy-sell signals statistics": 0,
+      "extreme short-term": 0,
+      "short-term": 0,
+      "mid-term": 0,
+      "extreme long-term": 0
     },
     "latest": {
       "量化指标分析": {
@@ -7358,6 +7438,54 @@
         "time": 1609679536178,
         "price": "834.87",
         "type": "18"
+      },
+      "big data analysis": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "uncertain"
+      },
+      "candlestick pattern analysis": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "slightly bearish"
+      },
+      "indicator analysis": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "bearish"
+      },
+      "buy-sell signals statistics": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "slightly bearish"
+      },
+      "extreme short-term": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "bullish"
+      },
+      "short-term": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "bullish"
+      },
+      "mid-term": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "uncertain"
+      },
+      "extreme long-term": {
+        "date": "2021-02-13 21:46:43",
+        "time": 1613252803080,
+        "price": "1816.28",
+        "type": "slightly bullish"
       }
     }
   }
